@@ -13,7 +13,7 @@ function countSex(user) {
         }
       });
 
-      return `Males:${males}, Females${females}`;
+      return `Males:${males}, Females:${females}`;
 
 
 }
