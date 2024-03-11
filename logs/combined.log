@@ -1,0 +1,4 @@
+{"message":"GET: /","level":"info"}
+{"message":"Message can not be parsed from URL: /","level":"error"}
+{"message":"GET: /favicon.ico","level":"info"}
+{"message":"Message can not be parsed from URL: /favicon.ico","level":"error"}
