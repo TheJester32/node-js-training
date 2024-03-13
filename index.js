@@ -1,8 +1,11 @@
-const { server } = require('./server.js')
+const Koa = require('koa');
+const app = new Koa();
 
-const hostname = '127.0.0.1'
-const port = 3000
+app.use(async (ctx, next) =>{
+    ctx.body = 'Hello world!';
+});
 
-server.listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}`)
-})
+app.listen(3000, () => {
+    console.log('listening...')
+});
+
