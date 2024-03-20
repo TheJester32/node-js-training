@@ -6,7 +6,7 @@ const app = new Koa();
 const router = new Router();
 
 router.get('/', (ctx, next) => {
-    ctx.body = 'hello world test'
+    ctx.body = 'Hello world!'
 });
 
 app
